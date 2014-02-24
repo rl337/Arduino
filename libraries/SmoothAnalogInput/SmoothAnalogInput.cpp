@@ -9,10 +9,6 @@ SmoothAnalogInput::SmoothAnalogInput() {
 }
 
 void SmoothAnalogInput::attach(int pin) {
-    if (pin >= 0 & pin <= 6) {
-        return;
-    }
-
     _pin = pin;
     _index = 0;
 
